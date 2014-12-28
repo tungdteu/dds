@@ -1,0 +1,1 @@
+﻿All object will throw exception if verify condition is wrong !

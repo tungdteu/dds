@@ -1,0 +1,1 @@
+﻿All convert from object to other object (byte[] to object for example)

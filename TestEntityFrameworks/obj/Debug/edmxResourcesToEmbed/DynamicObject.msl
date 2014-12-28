@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataTypeModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="tbl_Control_Item">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_Control_Item">
+        <MappingFragment StoreEntitySet="tbl_Control_Item">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ControlName" ColumnName="ControlName" />
+          <ScalarProperty Name="HasDataSource" ColumnName="HasDataSource" />
+          <ScalarProperty Name="OnlyForeignKey" ColumnName="OnlyForeignKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Control_Item_Atribute_Value">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_Control_Item_Atribute_Value">
+        <MappingFragment StoreEntitySet="tbl_Control_Item_Atribute_Value">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="AtributeId" ColumnName="AtributeId" />
+          <ScalarProperty Name="FormTableColumnId" ColumnName="FormTableColumnId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DataSource">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_DataSource">
+        <MappingFragment StoreEntitySet="tbl_DataSource">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="DataSourceName" ColumnName="DataSourceName" />
+          <ScalarProperty Name="DataSoureType" ColumnName="DataSoureType" />
+          <ScalarProperty Name="ObjectHandleValue" ColumnName="ObjectHandleValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DynamicColumnObject">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_DynamicColumnObject">
+        <MappingFragment StoreEntitySet="tbl_DynamicColumnObject">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ObjectId" ColumnName="ObjectId" />
+          <ScalarProperty Name="ObjectColumnName" ColumnName="ObjectColumnName" />
+          <ScalarProperty Name="ObjectDataType" ColumnName="ObjectDataType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DynamicObject">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_DynamicObject">
+        <MappingFragment StoreEntitySet="tbl_DynamicObject">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ObjectName" ColumnName="ObjectName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_DynamicObject_DynamicColumn_Value">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_DynamicObject_DynamicColumn_Value">
+        <MappingFragment StoreEntitySet="tbl_DynamicObject_DynamicColumn_Value">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ObjectId" ColumnName="ObjectId" />
+          <ScalarProperty Name="ColumnObjectId" ColumnName="ColumnObjectId" />
+          <ScalarProperty Name="RowIndex" ColumnName="RowIndex" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Form_TableColumn_ControlMapping">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_Form_TableColumn_ControlMapping">
+        <MappingFragment StoreEntitySet="tbl_Form_TableColumn_ControlMapping">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FormItem" ColumnName="FormItem" />
+          <ScalarProperty Name="TableColumnName" ColumnName="TableColumnName" />
+          <ScalarProperty Name="ControlItem" ColumnName="ControlItem" />
+          <ScalarProperty Name="IsForeignKey" ColumnName="IsForeignKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Form_TableColumn_ControlMapping_Label">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_Form_TableColumn_ControlMapping_Label">
+        <MappingFragment StoreEntitySet="tbl_Form_TableColumn_ControlMapping_Label">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FormTableColumnControlMappingItem" ColumnName="FormTableColumnControlMappingItem" />
+          <ScalarProperty Name="LanguageItem" ColumnName="LanguageItem" />
+          <ScalarProperty Name="Label" ColumnName="Label" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_FormManager">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_FormManager">
+        <MappingFragment StoreEntitySet="tbl_FormManager">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FormName" ColumnName="FormName" />
+          <ScalarProperty Name="TableManaged" ColumnName="TableManaged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Language">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_Language">
+        <MappingFragment StoreEntitySet="tbl_Language">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_WebForm_Common_Atribute">
+      <EntityTypeMapping TypeName="DataTypeModel.tbl_WebForm_Common_Atribute">
+        <MappingFragment StoreEntitySet="tbl_WebForm_Common_Atribute">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NameOfAtribute" ColumnName="NameOfAtribute" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Datasource" ColumnName="Datasource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

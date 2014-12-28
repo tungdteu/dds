@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataTypeModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_Control_Item" EntityType="DataTypeModel.tbl_Control_Item" />
+    <EntitySet Name="tbl_Control_Item_Atribute_Value" EntityType="DataTypeModel.tbl_Control_Item_Atribute_Value" />
+    <EntitySet Name="tbl_DataSource" EntityType="DataTypeModel.tbl_DataSource" />
+    <EntitySet Name="tbl_DynamicColumnObject" EntityType="DataTypeModel.tbl_DynamicColumnObject" />
+    <EntitySet Name="tbl_DynamicObject" EntityType="DataTypeModel.tbl_DynamicObject" />
+    <EntitySet Name="tbl_DynamicObject_DynamicColumn_Value" EntityType="DataTypeModel.tbl_DynamicObject_DynamicColumn_Value" />
+    <EntitySet Name="tbl_Form_TableColumn_ControlMapping" EntityType="DataTypeModel.tbl_Form_TableColumn_ControlMapping" />
+    <EntitySet Name="tbl_Form_TableColumn_ControlMapping_Label" EntityType="DataTypeModel.tbl_Form_TableColumn_ControlMapping_Label" />
+    <EntitySet Name="tbl_FormManager" EntityType="DataTypeModel.tbl_FormManager" />
+    <EntitySet Name="tbl_Language" EntityType="DataTypeModel.tbl_Language" />
+    <EntitySet Name="tbl_WebForm_Common_Atribute" EntityType="DataTypeModel.tbl_WebForm_Common_Atribute" />
+    <AssociationSet Name="FK_tbl_Form_TableColumn_ControlMapping_tbl_Control_Item" Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_Control_Item">
+      <End Role="tbl_Control_Item" EntitySet="tbl_Control_Item" />
+      <End Role="tbl_Form_TableColumn_ControlMapping" EntitySet="tbl_Form_TableColumn_ControlMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Control_Item_Atribute_Value_tbl_Form_TableColumn_ControlMapping" Association="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_Form_TableColumn_ControlMapping">
+      <End Role="tbl_Form_TableColumn_ControlMapping" EntitySet="tbl_Form_TableColumn_ControlMapping" />
+      <End Role="tbl_Control_Item_Atribute_Value" EntitySet="tbl_Control_Item_Atribute_Value" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Control_Item_Atribute_Value_tbl_WebForm_Common_Atribute" Association="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_WebForm_Common_Atribute">
+      <End Role="tbl_WebForm_Common_Atribute" EntitySet="tbl_WebForm_Common_Atribute" />
+      <End Role="tbl_Control_Item_Atribute_Value" EntitySet="tbl_Control_Item_Atribute_Value" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DataSource_tbl_DynamicObject" Association="DataTypeModel.FK_tbl_DataSource_tbl_DynamicObject">
+      <End Role="tbl_DynamicObject" EntitySet="tbl_DynamicObject" />
+      <End Role="tbl_DataSource" EntitySet="tbl_DataSource" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_WebForm_Common_Atribute_tbl_DataSource" Association="DataTypeModel.FK_tbl_WebForm_Common_Atribute_tbl_DataSource">
+      <End Role="tbl_DataSource" EntitySet="tbl_DataSource" />
+      <End Role="tbl_WebForm_Common_Atribute" EntitySet="tbl_WebForm_Common_Atribute" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicColumnObject" Association="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicColumnObject">
+      <End Role="tbl_DynamicColumnObject" EntitySet="tbl_DynamicColumnObject" />
+      <End Role="tbl_DynamicObject_DynamicColumn_Value" EntitySet="tbl_DynamicObject_DynamicColumn_Value" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicObject" Association="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicObject">
+      <End Role="tbl_DynamicObject" EntitySet="tbl_DynamicObject" />
+      <End Role="tbl_DynamicObject_DynamicColumn_Value" EntitySet="tbl_DynamicObject_DynamicColumn_Value" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Form_TableColumn_ControlMapping" Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Form_TableColumn_ControlMapping">
+      <End Role="tbl_Form_TableColumn_ControlMapping" EntitySet="tbl_Form_TableColumn_ControlMapping" />
+      <End Role="tbl_Form_TableColumn_ControlMapping_Label" EntitySet="tbl_Form_TableColumn_ControlMapping_Label" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Form_TableColumn_ControlMapping_tbl_FormManager" Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_FormManager">
+      <End Role="tbl_FormManager" EntitySet="tbl_FormManager" />
+      <End Role="tbl_Form_TableColumn_ControlMapping" EntitySet="tbl_Form_TableColumn_ControlMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Language" Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Language">
+      <End Role="tbl_Language" EntitySet="tbl_Language" />
+      <End Role="tbl_Form_TableColumn_ControlMapping_Label" EntitySet="tbl_Form_TableColumn_ControlMapping_Label" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tbl_Control_Item">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ControlName" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="HasDataSource" Type="Boolean" Nullable="false" />
+    <Property Name="OnlyForeignKey" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tbl_Form_TableColumn_ControlMapping" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_Control_Item" FromRole="tbl_Control_Item" ToRole="tbl_Form_TableColumn_ControlMapping" />
+  </EntityType>
+  <EntityType Name="tbl_Control_Item_Atribute_Value">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="AtributeId" Type="Int32" Nullable="false" />
+    <Property Name="FormTableColumnId" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tbl_Form_TableColumn_ControlMapping" Relationship="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_Form_TableColumn_ControlMapping" FromRole="tbl_Control_Item_Atribute_Value" ToRole="tbl_Form_TableColumn_ControlMapping" />
+    <NavigationProperty Name="tbl_WebForm_Common_Atribute" Relationship="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_WebForm_Common_Atribute" FromRole="tbl_Control_Item_Atribute_Value" ToRole="tbl_WebForm_Common_Atribute" />
+  </EntityType>
+  <EntityType Name="tbl_DataSource">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DataSourceName" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="DataSoureType" Type="Int16" Nullable="false" />
+    <Property Name="ObjectHandleValue" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbl_DynamicObject" Relationship="DataTypeModel.FK_tbl_DataSource_tbl_DynamicObject" FromRole="tbl_DataSource" ToRole="tbl_DynamicObject" />
+    <NavigationProperty Name="tbl_WebForm_Common_Atribute" Relationship="DataTypeModel.FK_tbl_WebForm_Common_Atribute_tbl_DataSource" FromRole="tbl_DataSource" ToRole="tbl_WebForm_Common_Atribute" />
+  </EntityType>
+  <EntityType Name="tbl_DynamicColumnObject">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ObjectId" Type="Int32" Nullable="false" />
+    <Property Name="ObjectColumnName" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="ObjectDataType" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="tbl_DynamicObject_DynamicColumn_Value" Relationship="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicColumnObject" FromRole="tbl_DynamicColumnObject" ToRole="tbl_DynamicObject_DynamicColumn_Value" />
+  </EntityType>
+  <EntityType Name="tbl_DynamicObject">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ObjectName" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tbl_DataSource" Relationship="DataTypeModel.FK_tbl_DataSource_tbl_DynamicObject" FromRole="tbl_DynamicObject" ToRole="tbl_DataSource" />
+    <NavigationProperty Name="tbl_DynamicObject_DynamicColumn_Value" Relationship="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicObject" FromRole="tbl_DynamicObject" ToRole="tbl_DynamicObject_DynamicColumn_Value" />
+  </EntityType>
+  <EntityType Name="tbl_DynamicObject_DynamicColumn_Value">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ObjectId" Type="Int32" Nullable="false" />
+    <Property Name="ColumnObjectId" Type="Int32" Nullable="false" />
+    <Property Name="RowIndex" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tbl_DynamicColumnObject" Relationship="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicColumnObject" FromRole="tbl_DynamicObject_DynamicColumn_Value" ToRole="tbl_DynamicColumnObject" />
+    <NavigationProperty Name="tbl_DynamicObject" Relationship="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicObject" FromRole="tbl_DynamicObject_DynamicColumn_Value" ToRole="tbl_DynamicObject" />
+  </EntityType>
+  <EntityType Name="tbl_Form_TableColumn_ControlMapping">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FormItem" Type="Int32" Nullable="false" />
+    <Property Name="TableColumnName" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="ControlItem" Type="Int32" />
+    <Property Name="IsForeignKey" Type="Boolean" />
+    <NavigationProperty Name="tbl_Control_Item" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_Control_Item" FromRole="tbl_Form_TableColumn_ControlMapping" ToRole="tbl_Control_Item" />
+    <NavigationProperty Name="tbl_Control_Item_Atribute_Value" Relationship="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_Form_TableColumn_ControlMapping" FromRole="tbl_Form_TableColumn_ControlMapping" ToRole="tbl_Control_Item_Atribute_Value" />
+    <NavigationProperty Name="tbl_Form_TableColumn_ControlMapping_Label" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Form_TableColumn_ControlMapping" FromRole="tbl_Form_TableColumn_ControlMapping" ToRole="tbl_Form_TableColumn_ControlMapping_Label" />
+    <NavigationProperty Name="tbl_FormManager" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_FormManager" FromRole="tbl_Form_TableColumn_ControlMapping" ToRole="tbl_FormManager" />
+  </EntityType>
+  <EntityType Name="tbl_Form_TableColumn_ControlMapping_Label">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FormTableColumnControlMappingItem" Type="Int32" Nullable="false" />
+    <Property Name="LanguageItem" Type="Int32" Nullable="false" />
+    <Property Name="Label" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tbl_Form_TableColumn_ControlMapping" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Form_TableColumn_ControlMapping" FromRole="tbl_Form_TableColumn_ControlMapping_Label" ToRole="tbl_Form_TableColumn_ControlMapping" />
+    <NavigationProperty Name="tbl_Language" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Language" FromRole="tbl_Form_TableColumn_ControlMapping_Label" ToRole="tbl_Language" />
+  </EntityType>
+  <EntityType Name="tbl_FormManager">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FormName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="TableManaged" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tbl_Form_TableColumn_ControlMapping" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_FormManager" FromRole="tbl_FormManager" ToRole="tbl_Form_TableColumn_ControlMapping" />
+  </EntityType>
+  <EntityType Name="tbl_Language">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tbl_Form_TableColumn_ControlMapping_Label" Relationship="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Language" FromRole="tbl_Language" ToRole="tbl_Form_TableColumn_ControlMapping_Label" />
+  </EntityType>
+  <EntityType Name="tbl_WebForm_Common_Atribute">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="NameOfAtribute" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="Int16" Nullable="false" />
+    <Property Name="Datasource" Type="Int32" />
+    <NavigationProperty Name="tbl_Control_Item_Atribute_Value" Relationship="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_WebForm_Common_Atribute" FromRole="tbl_WebForm_Common_Atribute" ToRole="tbl_Control_Item_Atribute_Value" />
+    <NavigationProperty Name="tbl_DataSource" Relationship="DataTypeModel.FK_tbl_WebForm_Common_Atribute_tbl_DataSource" FromRole="tbl_WebForm_Common_Atribute" ToRole="tbl_DataSource" />
+  </EntityType>
+  <Association Name="FK_tbl_Form_TableColumn_ControlMapping_tbl_Control_Item">
+    <End Role="tbl_Control_Item" Type="DataTypeModel.tbl_Control_Item" Multiplicity="0..1" />
+    <End Role="tbl_Form_TableColumn_ControlMapping" Type="DataTypeModel.tbl_Form_TableColumn_ControlMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Control_Item">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_Form_TableColumn_ControlMapping">
+        <PropertyRef Name="ControlItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Control_Item_Atribute_Value_tbl_Form_TableColumn_ControlMapping">
+    <End Role="tbl_Form_TableColumn_ControlMapping" Type="DataTypeModel.tbl_Form_TableColumn_ControlMapping" Multiplicity="1" />
+    <End Role="tbl_Control_Item_Atribute_Value" Type="DataTypeModel.tbl_Control_Item_Atribute_Value" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Form_TableColumn_ControlMapping">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_Control_Item_Atribute_Value">
+        <PropertyRef Name="FormTableColumnId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Control_Item_Atribute_Value_tbl_WebForm_Common_Atribute">
+    <End Role="tbl_WebForm_Common_Atribute" Type="DataTypeModel.tbl_WebForm_Common_Atribute" Multiplicity="1" />
+    <End Role="tbl_Control_Item_Atribute_Value" Type="DataTypeModel.tbl_Control_Item_Atribute_Value" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_WebForm_Common_Atribute">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_Control_Item_Atribute_Value">
+        <PropertyRef Name="AtributeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DataSource_tbl_DynamicObject">
+    <End Role="tbl_DynamicObject" Type="DataTypeModel.tbl_DynamicObject" Multiplicity="1" />
+    <End Role="tbl_DataSource" Type="DataTypeModel.tbl_DataSource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_DynamicObject">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_DataSource">
+        <PropertyRef Name="ObjectHandleValue" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_WebForm_Common_Atribute_tbl_DataSource">
+    <End Role="tbl_DataSource" Type="DataTypeModel.tbl_DataSource" Multiplicity="0..1" />
+    <End Role="tbl_WebForm_Common_Atribute" Type="DataTypeModel.tbl_WebForm_Common_Atribute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_DataSource">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_WebForm_Common_Atribute">
+        <PropertyRef Name="Datasource" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicColumnObject">
+    <End Role="tbl_DynamicColumnObject" Type="DataTypeModel.tbl_DynamicColumnObject" Multiplicity="1" />
+    <End Role="tbl_DynamicObject_DynamicColumn_Value" Type="DataTypeModel.tbl_DynamicObject_DynamicColumn_Value" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_DynamicColumnObject">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_DynamicObject_DynamicColumn_Value">
+        <PropertyRef Name="ColumnObjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicObject">
+    <End Role="tbl_DynamicObject" Type="DataTypeModel.tbl_DynamicObject" Multiplicity="1" />
+    <End Role="tbl_DynamicObject_DynamicColumn_Value" Type="DataTypeModel.tbl_DynamicObject_DynamicColumn_Value" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_DynamicObject">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_DynamicObject_DynamicColumn_Value">
+        <PropertyRef Name="ObjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Form_TableColumn_ControlMapping">
+    <End Role="tbl_Form_TableColumn_ControlMapping" Type="DataTypeModel.tbl_Form_TableColumn_ControlMapping" Multiplicity="1" />
+    <End Role="tbl_Form_TableColumn_ControlMapping_Label" Type="DataTypeModel.tbl_Form_TableColumn_ControlMapping_Label" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Form_TableColumn_ControlMapping">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_Form_TableColumn_ControlMapping_Label">
+        <PropertyRef Name="FormTableColumnControlMappingItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Form_TableColumn_ControlMapping_tbl_FormManager">
+    <End Role="tbl_FormManager" Type="DataTypeModel.tbl_FormManager" Multiplicity="1" />
+    <End Role="tbl_Form_TableColumn_ControlMapping" Type="DataTypeModel.tbl_Form_TableColumn_ControlMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_FormManager">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_Form_TableColumn_ControlMapping">
+        <PropertyRef Name="FormItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Language">
+    <End Role="tbl_Language" Type="DataTypeModel.tbl_Language" Multiplicity="1" />
+    <End Role="tbl_Form_TableColumn_ControlMapping_Label" Type="DataTypeModel.tbl_Form_TableColumn_ControlMapping_Label" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Language">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tbl_Form_TableColumn_ControlMapping_Label">
+        <PropertyRef Name="LanguageItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

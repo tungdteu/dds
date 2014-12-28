@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="318e5ee200c146ffb212d08add35b97f" Name="Diagram1">
+        <EntityTypeShape EntityType="DataTypeModel.tbl_Control_Item" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_Control_Item_Atribute_Value" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_DataSource" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_DynamicColumnObject" Width="1.5" PointX="1.5" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_DynamicObject" Width="1.5" PointX="1.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_DynamicObject_DynamicColumn_Value" Width="1.5" PointX="3.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_Form_TableColumn_ControlMapping" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_Form_TableColumn_ControlMapping_Label" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_FormManager" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_Language" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataTypeModel.tbl_WebForm_Common_Atribute" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_Control_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_Form_TableColumn_ControlMapping" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_Control_Item_Atribute_Value_tbl_WebForm_Common_Atribute" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_DataSource_tbl_DynamicObject" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_WebForm_Common_Atribute_tbl_DataSource" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicColumnObject" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_DynamicObject_DynamicColumn_DynamicCell_Value_tbl_DynamicObject" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Form_TableColumn_ControlMapping" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_tbl_FormManager" ManuallyRouted="false" />
+        <AssociationConnector Association="DataTypeModel.FK_tbl_Form_TableColumn_ControlMapping_Label_tbl_Language" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

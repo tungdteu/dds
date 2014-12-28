@@ -1,0 +1,15 @@
+E:\Project\DynamicDataManipulator\TestObjectUtil\bin\TestObjectUtil.dll
+E:\Project\DynamicDataManipulator\TestObjectUtil\bin\TestObjectUtil.pdb
+E:\Project\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.csprojResolveAssemblyReference.cache
+E:\Project\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.dll
+E:\Project\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.pdb
+C:\Users\tung\Desktop\DynamicDataManipulator\TestObjectUtil\bin\TestObjectUtil.dll
+C:\Users\tung\Desktop\DynamicDataManipulator\TestObjectUtil\bin\TestObjectUtil.pdb
+C:\Users\tung\Desktop\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.dll
+C:\Users\tung\Desktop\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.pdb
+C:\Users\tung\Desktop\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.csprojResolveAssemblyReference.cache
+H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\bin\TestObjectUtil.dll
+H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\bin\TestObjectUtil.pdb
+H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.csprojResolveAssemblyReference.cache
+H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.dll
+H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.pdb

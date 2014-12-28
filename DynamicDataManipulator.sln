@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F601A6B0-CFCF-45D3-A176-FB7DBE56C8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entity\Entities.csproj", "{6690BF1A-4648-47B7-AE84-2C3E49CE2A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseRespository", "DatabaseRespository\DatabaseRespository.csproj", "{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FC93434B-2E45-4091-8CC9-FA3DCE421E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEntityFrameworks", "TestEntityFrameworks\TestEntityFrameworks.csproj", "{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestObjectUtil", "TestObjectUtil\TestObjectUtil.csproj", "{CD211E61-A46B-465C-8329-36B5D80B3382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeEntities", "FakeEntity\FakeEntities.csproj", "{048A81C0-63F5-4ABF-8B06-A32238443911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDataManipulator", "DynamicDataManipulator\DynamicDataManipulator.csproj", "{F18DA853-DA8D-411F-A329-D9DC239EFC5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F601A6B0-CFCF-45D3-A176-FB7DBE56C8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F601A6B0-CFCF-45D3-A176-FB7DBE56C8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F601A6B0-CFCF-45D3-A176-FB7DBE56C8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F601A6B0-CFCF-45D3-A176-FB7DBE56C8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6690BF1A-4648-47B7-AE84-2C3E49CE2A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6690BF1A-4648-47B7-AE84-2C3E49CE2A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6690BF1A-4648-47B7-AE84-2C3E49CE2A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6690BF1A-4648-47B7-AE84-2C3E49CE2A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD211E61-A46B-465C-8329-36B5D80B3382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD211E61-A46B-465C-8329-36B5D80B3382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD211E61-A46B-465C-8329-36B5D80B3382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD211E61-A46B-465C-8329-36B5D80B3382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048A81C0-63F5-4ABF-8B06-A32238443911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048A81C0-63F5-4ABF-8B06-A32238443911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048A81C0-63F5-4ABF-8B06-A32238443911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048A81C0-63F5-4ABF-8B06-A32238443911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18DA853-DA8D-411F-A329-D9DC239EFC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18DA853-DA8D-411F-A329-D9DC239EFC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18DA853-DA8D-411F-A329-D9DC239EFC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18DA853-DA8D-411F-A329-D9DC239EFC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8} = {FC93434B-2E45-4091-8CC9-FA3DCE421E40}
+		{CD211E61-A46B-465C-8329-36B5D80B3382} = {FC93434B-2E45-4091-8CC9-FA3DCE421E40}
+	EndGlobalSection
+EndGlobal

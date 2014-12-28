@@ -1,0 +1,10 @@
+E:\Project\DynamicDataManipulator\FakeEntity\bin\Debug\FakeEntity.dll
+E:\Project\DynamicDataManipulator\FakeEntity\bin\Debug\FakeEntity.pdb
+E:\Project\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntity.dll
+E:\Project\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntity.pdb
+E:\Project\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntity.csprojResolveAssemblyReference.cache
+C:\Users\tung\Desktop\DynamicDataManipulator\FakeEntity\bin\Debug\FakeEntity.dll
+C:\Users\tung\Desktop\DynamicDataManipulator\FakeEntity\bin\Debug\FakeEntity.pdb
+C:\Users\tung\Desktop\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntity.dll
+C:\Users\tung\Desktop\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntity.pdb
+C:\Users\tung\Desktop\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntity.csprojResolveAssemblyReference.cache

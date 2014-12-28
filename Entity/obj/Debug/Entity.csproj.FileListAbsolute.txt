@@ -1,0 +1,9 @@
+E:\Project\DynamicDataManipulator\Entity\bin\Debug\Entity.dll
+E:\Project\DynamicDataManipulator\Entity\bin\Debug\Entity.pdb
+E:\Project\DynamicDataManipulator\Entity\bin\Debug\Common.dll
+E:\Project\DynamicDataManipulator\Entity\bin\Debug\EntityFramework.dll
+E:\Project\DynamicDataManipulator\Entity\bin\Debug\Common.pdb
+E:\Project\DynamicDataManipulator\Entity\bin\Debug\EntityFramework.xml
+E:\Project\DynamicDataManipulator\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Project\DynamicDataManipulator\Entity\obj\Debug\Entity.dll
+E:\Project\DynamicDataManipulator\Entity\obj\Debug\Entity.pdb
