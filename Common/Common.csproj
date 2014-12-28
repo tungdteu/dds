@@ -63,6 +63,7 @@
     <Compile Include="Data\Entity\Entity.cs" />
     <Compile Include="Data\Entity\IBaseEntity.cs" />
     <Compile Include="Data\Verify\DataLengthVerify.cs" />
+    <Compile Include="Export\ExcelExport.cs" />
     <Compile Include="ExtensionMethod\DataTableExtension.cs" />
     <Compile Include="ExtensionMethod\DateExtension.cs" />
     <Compile Include="ExtensionMethod\ListExtension.cs" />
