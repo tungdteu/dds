@@ -1,6 +1,6 @@
 ﻿namespace Common.Export
 {
-    internal class ExcelExport
+    public class ExcelExport
     {
     }
 }
