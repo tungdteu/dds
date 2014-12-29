@@ -15,13 +15,13 @@ namespace Common.Export
         /// Render a excel file from <see cref="DataTable"/> and response it to web browser of client. 
         /// </summary>
         /// <param name="source"><see cref="DataTable"/></param>
-        /// <param name="sesponseInstance">Page instance will response in project</param>
+        /// <param name="responseInstance">Page instance will response in project</param>
         /// <param name="needMapPath">need to rewrite map path</param>
         /// <param name="folderToSave">folder to save excel file (default is null or current folder)</param>
         /// <param name="suggetFileName">Name of suggeted file</param>
         /// <param name="columnGet">Array of getting columns in <see cref="DataTable"/> column collection</param>
         /// <param name="columnNameRedefine">Redefine name of getting columns array</param>
-        public static void RenderDownloadFileFromDataTable(DataTable source, Page sesponseInstance,
+        public static void RenderDownloadFileFromDataTable(DataTable source, Page responseInstance,
             bool needMapPath = true, string folderToSave = null, string suggetFileName = "", string[] columnGet = null,
             string[] columnNameRedefine = null)
         {
@@ -78,7 +78,7 @@ namespace Common.Export
                 folderToSave = folderToSave == null ? "" : "\\" + folderToSave + "\\";
 
                 if (needMapPath)
-                    excuteFile = sesponseInstance.Server.MapPath("~") + folderToSave;
+                    excuteFile = responseInstance.Server.MapPath("~") + folderToSave;
                 else
                 {
                     if (folderToSave.IsNullOrEmpty())
@@ -88,14 +88,14 @@ namespace Common.Export
                 }
 
                 var prefix = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-                var actualDomain = excuteFile + prefix + suggetFileName + ".xlsx";
+                var actualFile = excuteFile + prefix + suggetFileName + ".xlsx";
 
-                var newFile = new FileInfo(actualDomain);
+                var newFile = new FileInfo(actualFile);
 
                 if (newFile.Exists)
                 {
                     newFile.Delete();
-                    newFile = new FileInfo(actualDomain);
+                    newFile = new FileInfo(actualFile);
                 }
 
                 using (var package = new ExcelPackage(newFile))
@@ -145,7 +145,7 @@ namespace Common.Export
 
                             for (var indexCol = 0; indexCol < source.Columns.Count; indexCol++)
                             {
-                                var foundMember = columnGet.Any(t => source.Columns[indexCol].ColumnName.ToLower() == t.ToLower());
+                                var foundMember = columnGet.Any(t => String.Equals(source.Columns[indexCol].ColumnName, t, StringComparison.CurrentCultureIgnoreCase));
 
                                 if (foundMember)
                                 {
@@ -159,7 +159,7 @@ namespace Common.Export
                     package.Save();
                 }
 
-                sesponseInstance.TransmitFileToWebBrowser(actualDomain, false);
+                responseInstance.TransmitFileToWebBrowser(actualFile, false);
             }
             else
                 throw new ArgumentException("source cannot be null", "source");
@@ -172,7 +172,7 @@ namespace Common.Export
         ///     and response it to web browser of client. 
         /// </summary>
         /// <param name="source"><see cref="DataTable"/></param>
-        /// <param name="sesponseInstance">Page instance will response in project</param>
+        /// <param name="responseInstance">Page instance will response in project</param>
         /// <param name="needMapPath">need to rewrite map path</param>
         /// <param name="folderToSave">folder to save excel file (default is null or current folder)</param>
         /// <param name="suggetFileName">Name of suggeted file</param>
@@ -181,12 +181,12 @@ namespace Common.Export
         /// <remarks>
         /// Very low performance, please think carefully before use it !
         /// </remarks>
-        public static void RenderDownloadFileFromList<T>(List<T> source, Page sesponseInstance,
+        public static void RenderDownloadFileFromList<T>(List<T> source, Page responseInstance,
             bool needMapPath = true, string folderToSave = null, string suggetFileName = "", string[] columnGet = null,
             string[] columnNameRedefine = null)
         {
-            DataTable tbl = source.ConvertToDataTable();
-            RenderDownloadFileFromDataTable(tbl, sesponseInstance, needMapPath, folderToSave,
+            var tbl = source.ConvertToDataTable();
+            RenderDownloadFileFromDataTable(tbl, responseInstance, needMapPath, folderToSave,
                 suggetFileName, columnGet, columnNameRedefine);
         }
     }
