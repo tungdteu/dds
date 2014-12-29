@@ -72,6 +72,7 @@
     <Compile Include="ExtensionMethod\DateExtension.cs" />
     <Compile Include="ExtensionMethod\ListExtension.cs" />
     <Compile Include="ExtensionMethod\ObjectExtension.cs" />
+    <Compile Include="ExtensionMethod\PageExtension.cs" />
     <Compile Include="ExtensionMethod\StringExtension.cs" />
     <Compile Include="Infrastructure\BaseEntityRespository.cs" />
     <Compile Include="Infrastructure\BaseRepository.cs" />
