@@ -79,6 +79,7 @@
     <Compile Include="Infrastructure\Contract\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\FormMode.cs" />
     <Compile Include="Infrastructure\WebControl\ControlFactory.cs" />
+    <Compile Include="Object\SheetImfomation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\Nummeric\Validate.cs" />
     <Compile Include="Utility\Object\ReturnValueWithoutException.cs" />
