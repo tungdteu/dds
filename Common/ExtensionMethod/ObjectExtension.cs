@@ -36,7 +36,7 @@ namespace Common.ExtensionMethod
         /// <param name="obj">object</param>
         /// <returns>true or false</returns>
         public static bool IsNummeric(this object obj)
-        {
+        {  
             return Utility.Nummeric.Validate.IsNumeric(obj);
         }
         /// <summary>

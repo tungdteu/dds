@@ -83,6 +83,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\Nummeric\Validate.cs" />
     <Compile Include="Utility\Object\ReturnValueWithoutException.cs" />
+    <Compile Include="Utility\Object\StringTokenizer.cs" />
     <Compile Include="Utility\Reflection\CreateObjectFromType.cs" />
     <Compile Include="Utility\Reflection\RunMethodFromInstance.cs" />
   </ItemGroup>
