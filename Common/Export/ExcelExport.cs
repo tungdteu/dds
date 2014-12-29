@@ -60,16 +60,7 @@ namespace Common.Export
 
                 for (var index = 0; index < source.Columns.Count; index++)
                 {
-                    bool found = false;
-
-                    for (var indexMember = 0; indexMember < columnGet.Length; indexMember++)
-                    {
-                        if (String.Equals(columnGet[indexMember], source.Columns[index].ColumnName, StringComparison.CurrentCultureIgnoreCase))
-                        {
-                            found = true;
-                            break;
-                        }
-                    }
+                    var found = columnGet.Any(t => String.Equals(t, source.Columns[index].ColumnName, StringComparison.CurrentCultureIgnoreCase));
 
                     if (found == false)
                         undefinecolumn.Add(source.Columns[index].ColumnName.ToLower());
@@ -77,9 +68,7 @@ namespace Common.Export
 
                 var reorderstring = columnGet.ToList();
                 reorderstring.AddRange(undefinecolumn);
-
-                string[] reorderitem = reorderstring.ToArray();
-
+                var reorderitem = reorderstring.ToArray();
                 source.SetColumnsOrder(reorderitem);
             }
 
@@ -98,8 +87,8 @@ namespace Common.Export
                     excuteFile = folderToSave;
                 }
 
-                string prefix = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-                string actualDomain = excuteFile + prefix + suggetFileName + ".xlsx";
+                var prefix = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                var actualDomain = excuteFile + prefix + suggetFileName + ".xlsx";
 
                 var newFile = new FileInfo(actualDomain);
 
@@ -111,10 +100,10 @@ namespace Common.Export
 
                 using (var package = new ExcelPackage(newFile))
                 {
-                    ExcelWorksheet worksheet =
+                    var worksheet =
                         package.Workbook.Worksheets.Add(suggetFileName == string.Empty ? "Sheet1" : suggetFileName);
 
-                    int nextValue=0;
+                    var nextValue=0;
 
                     for (var index = 0; index < source.Columns.Count; index++)
                     {
@@ -124,9 +113,9 @@ namespace Common.Export
                         {
                             var foundMember = string.Empty;
 
-                            for (int indexColumn = 0; indexColumn < columnGet.Length; indexColumn++)
+                            for (var indexColumn = 0; indexColumn < columnGet.Length; indexColumn++)
                             {
-                                if (source.Columns[index].ColumnName.ToLower() == columnGet[indexColumn].ToLower())
+                                if (String.Equals(source.Columns[index].ColumnName, columnGet[indexColumn], StringComparison.CurrentCultureIgnoreCase))
                                 {
                                     foundMember = columnNameRedefine == null
                                         ? columnGet[indexColumn]
@@ -152,11 +141,11 @@ namespace Common.Export
                         }
                         else
                         {
-                            int nextColumn = 0;
+                            var nextColumn = 0;
 
-                            for (int indexCol = 0; indexCol < source.Columns.Count; indexCol++)
+                            for (var indexCol = 0; indexCol < source.Columns.Count; indexCol++)
                             {
-                                bool foundMember = columnGet.Any(t => source.Columns[indexCol].ColumnName.ToLower() == t.ToLower());
+                                var foundMember = columnGet.Any(t => source.Columns[indexCol].ColumnName.ToLower() == t.ToLower());
 
                                 if (foundMember)
                                 {
