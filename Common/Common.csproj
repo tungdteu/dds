@@ -36,13 +36,18 @@
     <Reference Include="EPPlus">
       <HintPath>..\Library\EPPlus.dll</HintPath>
     </Reference>
+    <Reference Include="SharedCache.WinServiceCommon">
+      <HintPath>..\Library\SharedCache.WinServiceCommon.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Data.Entity.Design" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Transactions" />
@@ -58,6 +63,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caching\DistributeCacheManager.cs" />
+    <Compile Include="Caching\ICacheManager.cs" />
+    <Compile Include="Caching\MemoryCacheManager.cs" />
     <Compile Include="Convert\ByteConvertor.cs" />
     <Compile Include="Convert\ObjectConvertor.cs" />
     <Compile Include="Data\Convert\SqlVariantDataConvertor.cs" />

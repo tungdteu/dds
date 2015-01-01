@@ -8,3 +8,8 @@ H:\CollectionProjects\Dyn\DynamicDataManipulator\FakeEntity\bin\Debug\FakeEntiti
 H:\CollectionProjects\Dyn\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntities.csprojResolveAssemblyReference.cache
 H:\CollectionProjects\Dyn\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntities.dll
 H:\CollectionProjects\Dyn\DynamicDataManipulator\FakeEntity\obj\Debug\FakeEntities.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\FakeEntity\bin\Debug\FakeEntities.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\FakeEntity\bin\Debug\FakeEntities.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\FakeEntity\obj\Debug\FakeEntities.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\FakeEntity\obj\Debug\FakeEntities.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\FakeEntity\obj\Debug\FakeEntities.csprojResolveAssemblyReference.cache

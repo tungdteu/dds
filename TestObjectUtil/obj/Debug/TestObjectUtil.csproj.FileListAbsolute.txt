@@ -13,3 +13,9 @@ H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\bin\TestObjectUt
 H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.csprojResolveAssemblyReference.cache
 H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.dll
 H:\CollectionProjects\Dyn\DynamicDataManipulator\TestObjectUtil\obj\Debug\TestObjectUtil.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\TestObjectUtil\bin\TestObjectUtil.dll.config
+H:\CollectionProjects\Dyn\MiniSharePoint\TestObjectUtil\bin\TestObjectUtil.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\TestObjectUtil\bin\TestObjectUtil.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\TestObjectUtil\obj\Debug\TestObjectUtil.csprojResolveAssemblyReference.cache
+H:\CollectionProjects\Dyn\MiniSharePoint\TestObjectUtil\obj\Debug\TestObjectUtil.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\TestObjectUtil\obj\Debug\TestObjectUtil.pdb

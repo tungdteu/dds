@@ -25,3 +25,14 @@ H:\CollectionProjects\Dyn\DynamicDataManipulator\Entity\bin\Debug\EntityFramewor
 H:\CollectionProjects\Dyn\DynamicDataManipulator\Entity\obj\Debug\Entities.csprojResolveAssemblyReference.cache
 H:\CollectionProjects\Dyn\DynamicDataManipulator\Entity\obj\Debug\Entities.dll
 H:\CollectionProjects\Dyn\DynamicDataManipulator\Entity\obj\Debug\Entities.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\Entities.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\Entities.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\Common.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\EntityFramework.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\Common.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\EntityFramework.xml
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\obj\Debug\Entities.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\obj\Debug\Entities.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\EPPlus.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\SharedCache.WinServiceCommon.dll

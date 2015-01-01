@@ -19,3 +19,11 @@ H:\CollectionProjects\Dyn\DynamicDataManipulator\TestEntityFrameworks\bin\Entity
 H:\CollectionProjects\Dyn\DynamicDataManipulator\TestEntityFrameworks\obj\Debug\TestEntityFrameworks.csprojResolveAssemblyReference.cache
 H:\CollectionProjects\Dyn\DynamicDataManipulator\TestEntityFrameworks\obj\Debug\TestEntityFrameworks.dll
 H:\CollectionProjects\Dyn\DynamicDataManipulator\TestEntityFrameworks\obj\Debug\TestEntityFrameworks.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\bin\TestEntityFrameworks.dll.config
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\bin\TestEntityFrameworks.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\bin\TestEntityFrameworks.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\bin\EntityFramework.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\bin\EntityFramework.xml
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\obj\Debug\TestEntityFrameworks.csprojResolveAssemblyReference.cache
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\obj\Debug\TestEntityFrameworks.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\TestEntityFrameworks\obj\Debug\TestEntityFrameworks.pdb
