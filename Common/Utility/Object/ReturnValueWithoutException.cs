@@ -2,7 +2,7 @@
 
 namespace Common.Utility.Object
 {
-    public class ReturnValueWithoutException
+    internal class ReturnValueWithoutException
     {
         public static string ReturnString(object value)
         {

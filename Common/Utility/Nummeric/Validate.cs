@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace Common.Utility.Nummeric
 {
-    public class Validate
+    internal class Validate
     {
         public static bool IsNumeric(object expression)
         {

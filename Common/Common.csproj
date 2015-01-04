@@ -68,6 +68,9 @@
     <Compile Include="Caching\MemoryCacheManager.cs" />
     <Compile Include="Convert\ByteConvertor.cs" />
     <Compile Include="Convert\ObjectConvertor.cs" />
+    <Compile Include="CryptEngine\Aes.cs" />
+    <Compile Include="CryptEngine\MD5Des.cs" />
+    <Compile Include="CryptEngine\TripDes.cs" />
     <Compile Include="Data\Convert\SqlVariantDataConvertor.cs" />
     <Compile Include="Data\Convert\SqlVariantSupportData.cs" />
     <Compile Include="Data\Convert\SqlVariantSupportDataType.cs" />

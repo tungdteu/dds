@@ -9,7 +9,7 @@
     ///     system with a same way.
     /// </summary>
     /// <remarks>
-    ///     http://www.sirentuan.com/2653434/codep1/best-practices-for-cache-and-session-manager-for-an-mvc-application
+    ///     http://www.sirentuan.com/2653434/codep1/best-practices-for-cache-and-session-manager-for-an-mvc-application 
     ///     http://www.nopcommerce.com/
     ///     Thank for all expert from around the world , I show deep gratitude with your contribution for community !
     /// </remarks>
