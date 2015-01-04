@@ -32,3 +32,4 @@ H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EPPlus.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\SharedCache.WinServiceCommon.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\C1.C1Excel.2.dll

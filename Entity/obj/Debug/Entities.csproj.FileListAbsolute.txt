@@ -36,3 +36,4 @@ H:\CollectionProjects\Dyn\MiniSharePoint\Entity\obj\Debug\Entities.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Entity\obj\Debug\Entities.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\EPPlus.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\SharedCache.WinServiceCommon.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Entity\bin\Debug\C1.C1Excel.2.dll

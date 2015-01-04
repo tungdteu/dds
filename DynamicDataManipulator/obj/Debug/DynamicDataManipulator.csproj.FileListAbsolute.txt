@@ -61,3 +61,4 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\obj\Debug\Dynami
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\obj\Debug\DynamicDataManipulator.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\EPPlus.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\SharedCache.WinServiceCommon.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\C1.C1Excel.2.dll

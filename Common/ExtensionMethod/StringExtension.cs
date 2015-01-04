@@ -7,6 +7,10 @@ namespace Common.ExtensionMethod
 {
     public static class StringExtension
     {
+        public static bool EqualsIgnoreCase(this string str,string obj)
+        {
+            return str.Equals(obj, StringComparison.CurrentCultureIgnoreCase);
+        }
         /// <summary>
         /// count words in this string
         /// </summary>

@@ -56,3 +56,4 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\obj\Debug\DatabaseR
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\obj\Debug\DatabaseRespository.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\EPPlus.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\SharedCache.WinServiceCommon.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\C1.C1Excel.2.dll

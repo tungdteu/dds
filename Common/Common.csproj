@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="C1.C1Excel.2">
+      <HintPath>..\Library\C1.C1Excel.2.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -93,6 +96,9 @@
     <Compile Include="Infrastructure\WebControl\ControlFactory.cs" />
     <Compile Include="Object\SheetImfomation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reader\Excel\C1ExcelReader.cs" />
+    <Compile Include="Reader\Excel\EpplusExcelReader.cs" />
+    <Compile Include="Reader\Excel\IExcelReader.cs" />
     <Compile Include="Utility\Nummeric\Validate.cs" />
     <Compile Include="Utility\Object\ReturnValueWithoutException.cs" />
     <Compile Include="Utility\Object\StringTokenizer.cs" />
