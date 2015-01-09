@@ -11,15 +11,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseRespository", "Data
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FC93434B-2E45-4091-8CC9-FA3DCE421E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEntityFrameworks", "TestEntityFrameworks\TestEntityFrameworks.csproj", "{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestObjectUtil", "TestObjectUtil\TestObjectUtil.csproj", "{CD211E61-A46B-465C-8329-36B5D80B3382}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeEntities", "FakeEntity\FakeEntities.csproj", "{048A81C0-63F5-4ABF-8B06-A32238443911}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDataManipulator", "DynamicDataManipulator\DynamicDataManipulator.csproj", "{F18DA853-DA8D-411F-A329-D9DC239EFC5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniSharePointComponent", "MiniSharePointComponent\MiniSharePointComponent.csproj", "{18CB5FFD-027A-4CE2-B2EC-F2EA384533CC}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestControl", "http://localhost:5851", "{6DEBDB93-E551-4E70-AC7A-A6500D95CFB5}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5851"
+		Debug.AspNetCompiler.PhysicalPath = "TestControl\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5851\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5851"
+		Release.AspNetCompiler.PhysicalPath = "TestControl\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5851\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TestControl\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClass(NUnit)", "TestClass(NUnit)\TestClass(NUnit).csproj", "{9654AB86-B501-4362-B7E9-D5FDC3276604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +59,6 @@ Global
 		{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21316A63-C3FF-4392-8BE3-BF2F9BE0D664}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD211E61-A46B-465C-8329-36B5D80B3382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD211E61-A46B-465C-8329-36B5D80B3382}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD211E61-A46B-465C-8329-36B5D80B3382}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD211E61-A46B-465C-8329-36B5D80B3382}.Release|Any CPU.Build.0 = Release|Any CPU
 		{048A81C0-63F5-4ABF-8B06-A32238443911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{048A81C0-63F5-4ABF-8B06-A32238443911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{048A81C0-63F5-4ABF-8B06-A32238443911}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,12 +71,20 @@ Global
 		{18CB5FFD-027A-4CE2-B2EC-F2EA384533CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18CB5FFD-027A-4CE2-B2EC-F2EA384533CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18CB5FFD-027A-4CE2-B2EC-F2EA384533CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEBDB93-E551-4E70-AC7A-A6500D95CFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEBDB93-E551-4E70-AC7A-A6500D95CFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEBDB93-E551-4E70-AC7A-A6500D95CFB5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEBDB93-E551-4E70-AC7A-A6500D95CFB5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9654AB86-B501-4362-B7E9-D5FDC3276604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9654AB86-B501-4362-B7E9-D5FDC3276604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9654AB86-B501-4362-B7E9-D5FDC3276604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9654AB86-B501-4362-B7E9-D5FDC3276604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2A0A7BD2-EFD8-4EA5-9D2E-5FFB9BB253C8} = {FC93434B-2E45-4091-8CC9-FA3DCE421E40}
-		{CD211E61-A46B-465C-8329-36B5D80B3382} = {FC93434B-2E45-4091-8CC9-FA3DCE421E40}
+		{6DEBDB93-E551-4E70-AC7A-A6500D95CFB5} = {FC93434B-2E45-4091-8CC9-FA3DCE421E40}
+		{9654AB86-B501-4362-B7E9-D5FDC3276604} = {FC93434B-2E45-4091-8CC9-FA3DCE421E40}
 	EndGlobalSection
 EndGlobal
