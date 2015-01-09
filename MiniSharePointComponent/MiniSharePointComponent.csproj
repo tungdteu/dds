@@ -33,6 +33,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,6 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UiEditor\FontEditor.cs" />
     <Compile Include="UiEditor\TextEditor.cs" />
+    <Compile Include="UI\MiniSharePointGrid.cs" />
     <Compile Include="UI\TextController.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -55,6 +57,12 @@
     <EmbeddedResource Include="UI\TextController.resx">
       <DependentUpon>TextController.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f601a6b0-cfcf-45d3-a176-fb7dbe56c8ed}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

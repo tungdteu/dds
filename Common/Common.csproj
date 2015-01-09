@@ -30,6 +30,51 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\Library\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>..\Library\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Fuzzy">
+      <HintPath>..\Library\AForge.Fuzzy.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Genetic">
+      <HintPath>..\Library\AForge.Genetic.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging">
+      <HintPath>..\Library\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging.Formats">
+      <HintPath>..\Library\AForge.Imaging.Formats.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.MachineLearning">
+      <HintPath>..\Library\AForge.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>..\Library\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Neuro">
+      <HintPath>..\Library\AForge.Neuro.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.Lego">
+      <HintPath>..\Library\AForge.Robotics.Lego.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.TeRK">
+      <HintPath>..\Library\AForge.Robotics.TeRK.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\Library\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\Library\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.VFW">
+      <HintPath>..\Library\AForge.Video.VFW.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Vision">
+      <HintPath>..\Library\AForge.Vision.dll</HintPath>
+    </Reference>
     <Reference Include="C1.C1Excel.2">
       <HintPath>..\Library\C1.C1Excel.2.dll</HintPath>
     </Reference>
@@ -80,6 +125,7 @@
     <Compile Include="Data\Entity\Entity.cs" />
     <Compile Include="Data\Entity\IBaseEntity.cs" />
     <Compile Include="Data\Verify\DataLengthVerify.cs" />
+    <Compile Include="ExtensionMethod\CacheExtensions.cs" />
     <Compile Include="ExtensionMethod\EpplusExtension.cs" />
     <Compile Include="Export\ExcelExport.cs" />
     <Compile Include="ExtensionMethod\DataTableExtension.cs" />
@@ -88,6 +134,7 @@
     <Compile Include="ExtensionMethod\ObjectExtension.cs" />
     <Compile Include="ExtensionMethod\PageExtension.cs" />
     <Compile Include="ExtensionMethod\StringExtension.cs" />
+    <Compile Include="ImageProcessing\AForgeImplement.cs" />
     <Compile Include="Infrastructure\BaseEntityRespository.cs" />
     <Compile Include="Infrastructure\BaseRepository.cs" />
     <Compile Include="Infrastructure\Contract\IBaseRepository.cs" />

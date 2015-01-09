@@ -62,3 +62,6 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\obj\Debug\Dynami
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\EPPlus.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\SharedCache.WinServiceCommon.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\C1.C1Excel.2.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.Imaging.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.Math.dll

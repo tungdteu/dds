@@ -57,3 +57,6 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\obj\Debug\DatabaseR
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\EPPlus.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\SharedCache.WinServiceCommon.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\C1.C1Excel.2.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.Imaging.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.Math.dll
