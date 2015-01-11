@@ -47,3 +47,4 @@ H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\SharedCache.WinService
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EntityFramework.xml
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.pdb
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

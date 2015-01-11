@@ -45,6 +45,7 @@
     <Compile Include="Html5Control\ChartJs.cs" />
     <Compile Include="Html5Control\JQueryRegisterControl.cs" />
     <Compile Include="Js\JavascriptRenderHelper.cs" />
+    <Compile Include="Js\JavascriptUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UiEditor\FontEditor.cs" />
     <Compile Include="UiEditor\TextEditor.cs" />
