@@ -1,6 +1,7 @@
 ﻿using System.Web.UI;
 
 [assembly: WebResource("MiniSharePointComponent.Js.jquery-2.1.3.js","application/x-javascript")]
+[assembly: WebResource("MiniSharePointComponent.Js.Chart.js", "application/x-javascript")]
 namespace MiniSharePointComponent.Js
 {
 
@@ -16,7 +17,7 @@ namespace MiniSharePointComponent.Js
         #region Constants
 
         private const string Jquery ="MiniSharePointComponent.Js.jquery-2.1.3.js";
-        private const string ChartJs = "MiniSharePointComponent.Chart.js";
+        private const string ChartJs = "MiniSharePointComponent.Js.Chart.js";
 
         #endregion
 
