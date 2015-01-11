@@ -51,6 +51,12 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\DatabaseResp
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\Entities.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\EntityFramework.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\FakeEntities.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\EPPlus.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.Imaging.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\C1.C1Excel.2.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\SharedCache.WinServiceCommon.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.Math.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\Common.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\DatabaseRespository.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\Entities.pdb
@@ -59,9 +65,3 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\EntityFramew
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\obj\Debug\DynamicDataManipulator.csprojResolveAssemblyReference.cache
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\obj\Debug\DynamicDataManipulator.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\obj\Debug\DynamicDataManipulator.pdb
-H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\EPPlus.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\SharedCache.WinServiceCommon.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\C1.C1Excel.2.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.Imaging.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DynamicDataManipulator\bin\AForge.Math.dll

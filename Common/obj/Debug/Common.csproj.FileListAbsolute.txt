@@ -25,14 +25,6 @@ H:\CollectionProjects\Dyn\DynamicDataManipulator\Common\obj\Debug\Common.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\Common.dll.config
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\Common.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\Common.pdb
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EntityFramework.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EntityFramework.xml
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.pdb
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EPPlus.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\SharedCache.WinServiceCommon.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
-H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\C1.C1Excel.2.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\AForge.Controls.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\AForge.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\AForge.Fuzzy.dll
@@ -48,3 +40,11 @@ H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\AForge.Video.DirectSho
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\AForge.Video.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\AForge.Video.VFW.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\AForge.Vision.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\C1.C1Excel.2.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EntityFramework.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EPPlus.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\SharedCache.WinServiceCommon.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\bin\Debug\EntityFramework.xml
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\Common\obj\Debug\Common.pdb

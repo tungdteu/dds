@@ -1,15 +1,32 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.Collections;
+using System.ComponentModel;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using MiniSharePointComponent.Js;
 
 namespace MiniSharePointComponent.Html5Control
 {
-    [Browsable(false)]
-    public class JQueryRegisterControl : WebControl
+    /// <summary>
+    /// A register jquery control
+    /// </summary>
+    /// <remarks>
+    /// Step by step for user who have no exp in Server control development domain
+    /// http://msdn.microsoft.com/en-us/library/vstudio/yhzc935f%28v=vs.100%29.aspx
+    /// </remarks>
+    [Browsable(false)]    
+    public class JQueryRegisterControl : CompositeDataBoundControl
     {
-        protected override void RenderContents(HtmlTextWriter output)
+        protected override void OnPagePreLoad(object sender, EventArgs e)
         {
-            output.Write("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>");
+            base.OnPagePreLoad(sender, e);
+            JavaScriptHelper.Include_JQuery(Page.ClientScript);   
+        }
+
+        protected override int CreateChildControls(IEnumerable dataSource, bool dataBinding)
+        {
+            return 0;
         }
     }
 }
+

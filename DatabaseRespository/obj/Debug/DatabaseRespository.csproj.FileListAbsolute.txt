@@ -47,6 +47,12 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\Common.dl
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\Entities.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\EntityFramework.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\FakeEntities.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\EPPlus.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.Imaging.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\C1.C1Excel.2.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\SharedCache.WinServiceCommon.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.dll
+H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.Math.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\Common.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\Entities.pdb
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\FakeEntities.pdb
@@ -54,9 +60,3 @@ H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\EntityFra
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\obj\Debug\DatabaseRespository.csprojResolveAssemblyReference.cache
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\obj\Debug\DatabaseRespository.dll
 H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\obj\Debug\DatabaseRespository.pdb
-H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\EPPlus.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\SharedCache.WinServiceCommon.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\C1.C1Excel.2.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.Imaging.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.dll
-H:\CollectionProjects\Dyn\MiniSharePoint\DatabaseRespository\bin\Debug\AForge.Math.dll

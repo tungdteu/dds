@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -58,5 +59,15 @@ namespace MiniSharePointComponent.UI
             if (DataSource is DataTable)
                 ExcelExport.RenderDownloadFileFromDataTable((DataTable) DataSource, Page);
         }
+
+        protected virtual void ExportAsExcel<T>()
+        {
+            if (DataSource == null)
+                throw new Exception("Datasource is null");
+
+            if (DataSource is List<T>)
+                ExcelExport.RenderDownloadFileFromList(((List<T>)DataSource),Page);
+        }
     }
+    
 }

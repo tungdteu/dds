@@ -42,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Html5Control\HighChartJs.cs" />
+    <Compile Include="Html5Control\ChartJs.cs" />
     <Compile Include="Html5Control\JQueryRegisterControl.cs" />
+    <Compile Include="Js\JavascriptRenderHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UiEditor\FontEditor.cs" />
     <Compile Include="UiEditor\TextEditor.cs" />
@@ -65,6 +66,13 @@
       <Project>{f601a6b0-cfcf-45d3-a176-fb7dbe56c8ed}</Project>
       <Name>Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Js\jquery-2.1.3.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Html5Control\ChartJs.bmp" />
+    <Content Include="Js\Chart.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

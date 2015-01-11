@@ -11,7 +11,7 @@ namespace MiniSharePointComponent.UiEditor
         #region Overrider
 
         /// <summary>
-        ///     Chỉ ra là kiểu Drop draw .
+        ///     Indicate Dropdraw style.
         /// </summary>
         /// <param name="context">Context</param>
         /// <returns>UIType</returns>
@@ -21,7 +21,7 @@ namespace MiniSharePointComponent.UiEditor
         }
 
         /// <summary>
-        ///     Lấy giá trị .
+        ///     Get value .
         /// </summary>
         /// <param name="context">Context</param>
         /// <param name="provider">Provider</param>
